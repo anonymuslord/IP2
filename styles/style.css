@@ -1,0 +1,25 @@
+div{
+    color: aliceblue;
+    border: 2px dotted blue;
+}
+body{
+
+    background-color: black;
+}
+
+/* CLASS ve ID*/
+/* Class . */
+.body{
+    background-color: brown;
+    font-size: 64px;
+    color: black;
+}
+
+.beyaz{
+    border: 2px solid white;
+}
+
+/* ID # */
+#beyaz{
+    border: 4px dotted black;
+}
