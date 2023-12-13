@@ -1,0 +1,80 @@
+<html>
+    <head><title>Formlar</title></head>
+    <body>
+        <form 
+        method="post" 
+        enctype="multipart/form-data">
+        <input name="kullaniciadi"
+        type="text"
+        value="Alper"
+        />
+        <input name="sifre"
+        type="password"
+        required
+        />
+        
+        <div>
+            <input 
+            type="email" 
+            name="email" 
+            required
+            />
+        </div>
+
+        <div>
+            <input 
+            type="number" 
+            name="telefon"
+            min="10"
+            max="50"
+            step="5"
+            />
+        </div>
+
+        <textarea name="aciklama"
+        rows="10" cols="50"
+        >Açıklama</textarea>
+<div>Onayla
+    <input checked type="checkbox" name="dogrula" />
+</div>
+
+<div>
+    Erkek
+    <input checked type="radio" name="cinsiyet" />
+    Kadın
+    <input type="radio" name="cinsiyet" />
+
+</div>
+
+<div>
+    <select name="sinif">
+        <option value="">Seçiniz</option>
+        <option value="1">1. Sınıf</option>
+        <option selected value="2">2. Sınıf</option>
+        <option value="3">3. Sınıf</option>
+        <option value="4">4. Sınıf</option>
+    </select>
+</div>
+
+<div>
+    <input type="file" name="dosya" />
+</div>
+
+
+<div>
+    <input type="date" name="tarih" value="2023-12-15"/>
+    <input type="datetime-local" name="tarih-saat" value="2023-12-15 17:55"  />
+</div>
+<input type="reset" value="Temizle" />
+<div>
+    <input type="color"  />
+</div>
+
+
+        <div>
+            <input type="submit" value="Giriş Yap" />
+        </div>
+            
+        </form>
+    </body>
+</html>
